@@ -23,4 +23,3 @@ tbb==2021.2.0
 threadpoolctl==2.1.0
 wincertstore==0.2
 zope.interface==5.3.0
-© 2021 GitHub, Inc.
