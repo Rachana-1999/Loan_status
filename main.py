@@ -4,6 +4,9 @@ import numpy as np
 import sklearn
 from sklearn.ensemble import BaggingClassifier
 from sklearn.tree import DecisionTreeClassifier
+from flask import Flask, render_template, request, redirect
+from flask_sqlalchemy import SQLAlchemy
+from sklearn.preprocessing import StandardScaler
 
 
 loan = pd.read_csv("train.csv")
